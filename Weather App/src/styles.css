@@ -1,0 +1,141 @@
+.container {
+  font-family: "Raleway", sans-serif;
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+}
+
+.card {
+  max-width: 500px;
+  display: block;
+  margin: 60px auto;
+  height: auto;
+}
+
+.card-body {
+  background: radial-gradient(
+    circle at 0.2% 0.5%,
+    rgb(252, 165, 241) 0%,
+    rgb(181, 255, 255) 100.2%
+  );
+  border: 1px solid rgb(153, 103, 177);
+  border-radius: 15px;
+}
+
+form {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.form-control {
+  font-family: "Raleway", sans-serif;
+  margin-top: 20px;
+  font-size: 18px;
+  box-shadow: 2px 2px 6px rgba(233, 147, 236, 0.7);
+}
+
+.submit-button,
+#current-button {
+  font-family: "Raleway", sans-serif;
+  background-color: rgba(233, 147, 236, 0.7);
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0.25rem;
+  border: none;
+  height: 38px;
+  font-size: 18px;
+  color: white;
+  transition: 200ms ease-in-out;
+  box-shadow: 2px 2px 6px rgba(233, 147, 236, 0.7);
+}
+
+.submit-button:hover,
+#current-button:hover {
+  box-shadow: 2px 2px 6px rgba(29, 26, 29, 0.7);
+}
+
+#current-city {
+  font-size: 38px;
+  font-weight: 400;
+  color: rgba(143, 10, 148, 0.7);
+}
+
+#current-icon {
+  margin-top: -8px;
+  font-size: 40px;
+  color: rgba(143, 10, 148, 0.7);
+}
+
+#date-and-time {
+  font-size: 20px;
+  color: rgba(198, 49, 218, 0.4);
+}
+
+#date-and-time {
+  border-bottom: 1px dotted rgba(198, 49, 218, 0.6);
+}
+
+#temp {
+  margin-top: -50px;
+}
+
+.current-temperature #temp {
+  font-size: 320px;
+  font-weight: 300;
+  color: rgb(109, 105, 114);
+  letter-spacing: -20px;
+  margin-left: -20px;
+}
+
+#scale p {
+  color: rgb(109, 105, 114);
+  font-size: 40px;
+}
+
+#c {
+  color: rgba(198, 49, 218, 0.6);
+  cursor: default;
+  transition: 150ms ease-in-out;
+}
+
+#f {
+  cursor: default;
+  transition: 150ms ease-in-out;
+}
+
+#c:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#f:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.icon-little {
+  font-size: 35px;
+  color: rgba(198, 49, 218, 0.6);
+  transition: 200ms ease-in-out;
+}
+
+.icon-little p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(198, 49, 218, 0.8);
+}
+
+.icon-little:hover {
+  background-color: rgba(233, 147, 236, 0.3);
+  border-radius: 8px;
+  cursor: default;
+}
+
+#wind-and-humidity {
+  color: rgba(198, 49, 218, 0.6);
+}
+
+#forecast {
+  border-top: 1px dotted rgba(198, 49, 218, 0.6);
+  padding-top: 20px;
+}
