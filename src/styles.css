@@ -1,6 +1,6 @@
 .container {
   font-family: "Raleway", sans-serif;
-  margin-top: 50px;
+  margin-top: 20px;
   display: block;
   text-align: center;
 }
@@ -8,7 +8,7 @@
 .card {
   max-width: 500px;
   display: block;
-  margin: 60px auto;
+  margin: 30px auto;
   height: auto;
 }
 
@@ -142,6 +142,6 @@ form {
 }
 
 footer {
-  margin-top: -55px;
+  margin-top: -20px;
   margin-bottom: 30px;
 }
