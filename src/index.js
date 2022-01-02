@@ -103,16 +103,4 @@ function onLoadCurrentLocation() {
 
 window.onload = onLoadCurrentLocation();
 
-/*
-//Change to Fahrenheit and Celsius
-
-function toFahrenheit(event) {
-  event.preventDefault();
-  let temp = document.querySelector("#temp").innerHTML;
-  let fahrenheit = Math.round(temp * 1.8 + 35);
-  document.querySelector("#temp").innerHTML = fahrenheit;
-}
-
-let convertToFahrenheit = document.querySelector("#f");
-convertToFahrenheit.addEventListener("click", toFahrenheit);
-*/
+/*Change to Fahrenheit and Celsius*/

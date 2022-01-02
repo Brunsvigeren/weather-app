@@ -140,3 +140,8 @@ form {
   border-top: 1px dotted rgba(198, 49, 218, 0.6);
   padding-top: 20px;
 }
+
+footer {
+  margin-top: -55px;
+  margin-bottom: 30px;
+}
