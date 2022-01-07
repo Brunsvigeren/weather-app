@@ -60,19 +60,16 @@ form {
   color: rgba(143, 10, 148, 0.7);
 }
 
-#current-icon {
+.description-and-icon {
+  display: inline;
   margin-top: -8px;
   font-size: 40px;
-  color: rgba(143, 10, 148, 0.7);
+  color: rgba(143, 10, 148, 0.4);
 }
 
 #date-and-time {
   font-size: 20px;
   color: rgba(198, 49, 218, 0.4);
-}
-
-#date-and-time {
-  border-bottom: 1px dotted rgba(198, 49, 218, 0.6);
 }
 
 #temp {

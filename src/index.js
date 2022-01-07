@@ -9,7 +9,15 @@ function formatDate(date) {
     currentMinute = `0${currentMinute}`;
   }
 
-  let days = ["Sun", "Mun", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  let days = [
+    "Sunday",
+    "Munday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
   let months = [
     "Jan",
     "Feb",
@@ -29,7 +37,7 @@ function formatDate(date) {
   let currentDay = days[date.getDay()];
   let currentMonth = months[date.getMonth()];
   let currentDate = date.getDate();
-  let fullCurrentDate = `${currentDay} - ${currentMonth} ${currentDate} - ${currentYear} - ${currentHour}:${currentMinute}`;
+  let fullCurrentDate = `${currentDay} ${currentMonth} ${currentDate}. ${currentYear} | ${currentHour}:${currentMinute}`;
 
   return fullCurrentDate;
 }
